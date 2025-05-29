@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/JYPLAYGROUND/static/css/main.e9b6e73d.css",
+    "main.js": "/JYPLAYGROUND/static/js/main.10a48537.js",
+    "static/js/584.784dba0b.chunk.js": "/JYPLAYGROUND/static/js/584.784dba0b.chunk.js",
+    "service-worker.js": "/JYPLAYGROUND/service-worker.js",
+    "index.html": "/JYPLAYGROUND/index.html",
+    "main.e9b6e73d.css.map": "/JYPLAYGROUND/static/css/main.e9b6e73d.css.map",
+    "main.10a48537.js.map": "/JYPLAYGROUND/static/js/main.10a48537.js.map",
+    "584.784dba0b.chunk.js.map": "/JYPLAYGROUND/static/js/584.784dba0b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9b6e73d.css",
+    "static/js/main.10a48537.js"
+  ]
+}
