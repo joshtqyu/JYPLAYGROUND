@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import shopifyLogo from './shopify_glyph.svg';
 
 const data = [
   {
@@ -21,7 +22,10 @@ const data = [
 function App() {
   return (
     <div className="dashboard-container">
-      <h1 className="dashboard-title">My Dashboard</h1>
+      <a href="https://www.shopify.com" target="_blank" rel="noopener noreferrer">
+        <img src={shopifyLogo} alt="Shopify logo" className="shopify-logo" />
+      </a>
+      <h1 className="dashboard-title"><span className="shopify-font">My Dashboard</span></h1>
       <div className="categories">
         {data.map((cat) => (
           <div className="category" key={cat.category}>
@@ -31,7 +35,7 @@ function App() {
                 <li key={link.url}>
                   <a href={link.url} target="_blank" rel="noopener noreferrer">
                     {link.name}
-        </a>
+                  </a>
                 </li>
               ))}
             </ul>
