@@ -31,7 +31,7 @@ function App() {
                 <li key={link.url}>
                   <a href={link.url} target="_blank" rel="noopener noreferrer">
                     {link.name}
-                  </a>
+        </a>
                 </li>
               ))}
             </ul>
