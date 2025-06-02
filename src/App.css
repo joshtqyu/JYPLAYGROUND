@@ -49,9 +49,9 @@ body {
 }
 
 .categories {
-  display: flex;
-  gap: 2rem;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem 2.5rem;
   justify-content: center;
   width: 100%;
   max-width: 900px;
@@ -62,11 +62,15 @@ body {
   border-radius: 18px;
   padding: 2rem 2.2rem;
   min-width: 240px;
+  min-height: 220px;
   box-shadow: 0 4px 24px 0 rgba(0,0,0,0.10);
-  margin-bottom: 2rem;
+  margin-bottom: 0;
   border-top: 4px solid #008060;
   transition: transform 0.18s, box-shadow 0.18s;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 .category:hover {
   transform: translateY(-6px) scale(1.025);
@@ -110,21 +114,16 @@ body {
   text-decoration: none;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   .categories {
-    flex-direction: column;
-    gap: 1.2rem;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
     align-items: center;
   }
   .category {
     min-width: 90vw;
     padding: 1.2rem 1rem;
-  }
-  .dashboard-title {
-    font-size: 2rem;
-  }
-  .shopify-font {
-    font-size: 2.1rem;
+    min-height: 180px;
   }
 }
 
