@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/JYPLAYGROUND/static/css/main.8789fef3.css",
+    "main.css": "/JYPLAYGROUND/static/css/main.1559e939.css",
     "main.js": "/JYPLAYGROUND/static/js/main.019b6066.js",
     "static/js/584.784dba0b.chunk.js": "/JYPLAYGROUND/static/js/584.784dba0b.chunk.js",
     "service-worker.js": "/JYPLAYGROUND/service-worker.js",
     "static/media/shopify_glyph.svg": "/JYPLAYGROUND/static/media/shopify_glyph.6d9b56d8763cd7f6b41a6b03da5c7100.svg",
     "index.html": "/JYPLAYGROUND/index.html",
-    "main.8789fef3.css.map": "/JYPLAYGROUND/static/css/main.8789fef3.css.map",
+    "main.1559e939.css.map": "/JYPLAYGROUND/static/css/main.1559e939.css.map",
     "main.019b6066.js.map": "/JYPLAYGROUND/static/js/main.019b6066.js.map",
     "584.784dba0b.chunk.js.map": "/JYPLAYGROUND/static/js/584.784dba0b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8789fef3.css",
+    "static/css/main.1559e939.css",
     "static/js/main.019b6066.js"
   ]
 }
