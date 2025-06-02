@@ -4,17 +4,31 @@ import shopifyLogo from './shopify_glyph.svg';
 
 const data = [
   {
-    category: 'Work',
+    category: "LaCore Payment Technologies",
     links: [
-      { name: 'Shopify Admin', url: 'https://admin.shopify.com/' },
-      { name: 'Gmail', url: 'https://mail.google.com/' },
+      { name: 'Placeholder Link 1', url: '#' },
+      { name: 'Placeholder Link 2', url: '#' },
     ],
   },
   {
-    category: 'Personal',
+    category: "SC Johnson",
     links: [
-      { name: 'YouTube', url: 'https://youtube.com/' },
-      { name: 'Reddit', url: 'https://reddit.com/' },
+      { name: 'Placeholder Link 1', url: '#' },
+      { name: 'Placeholder Link 2', url: '#' },
+    ],
+  },
+  {
+    category: "Ka'Chava",
+    links: [
+      { name: 'Placeholder Link 1', url: '#' },
+      { name: 'Placeholder Link 2', url: '#' },
+    ],
+  },
+  {
+    category: "Follett",
+    links: [
+      { name: 'Placeholder Link 1', url: '#' },
+      { name: 'Placeholder Link 2', url: '#' },
     ],
   },
 ];
